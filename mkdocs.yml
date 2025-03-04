@@ -1,0 +1,65 @@
+site_name: E-commerce Project
+site_description: A simple documentation site for Employee Management
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - toc.title
+    - navigation.top
+    - navigation.bottom
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - navigation.sidebar
+  language: en
+  palette:
+  - scheme: default
+    toggle: 
+      icon: material/toggle-switch-off-outline
+      text: switch to dark mode
+    primary: indigo
+    accent: pink
+  - scheme: slate
+    toggle: 
+      icon: material/toggle-switch
+      text: switch to light mode
+    primary: indigo
+    accent: lime
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/3.png
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/2arry
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@LarryTalksCloud
+    - icon: fontawesome/brands/linkedin
+      link: http://linkedin.com/in/larryadah
+  homepage: https://github.com/2arry/employee_management
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: 
+  © 2025 <a href="https://github.com/2arry/employee_management" target="_blank" rel="noopener">Larry Adah</a> | All Rights Reserved
