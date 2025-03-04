@@ -42,7 +42,7 @@ extra:
       link: https://www.youtube.com/@LarryTalksCloud
     - icon: fontawesome/brands/linkedin
       link: http://linkedin.com/in/larryadah
-  homepage: https://github.com/2arry/employee_management
+  homepage: https://github.com/2arry/ecommerce_project
 
 markdown_extensions:
   - pymdownx.highlight:
